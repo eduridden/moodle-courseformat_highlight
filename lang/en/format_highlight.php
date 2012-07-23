@@ -16,16 +16,18 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'format_topics', language 'en', branch 'MOODLE_20_STABLE'
+ * Strings for component 'format_highlight', language 'en', branch 'MOODLE_20_STABLE'
  *
- * @package   format_topics
+ * @package   format_highlight
  * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['sectionname'] = 'Highlighted Topics';
-$string['pluginname'] = 'Highlighted Topics format';
+$string['currentsection'] = 'This topic';
+$string['sectionname'] = 'Topic';
+$string['pluginname'] = 'Highlited Topics format';
 $string['section0name'] = 'General';
 $string['page-course-view-topics'] = 'Any course main page in topics format';
 $string['page-course-view-topics-x'] = 'Any course page in topics format';
-$string['instructions'] = 'Click anywhere on a topic to highlight it.';
+$string['hidefromothers'] = 'Hide topic';
+$string['showfromothers'] = 'Show topic';
