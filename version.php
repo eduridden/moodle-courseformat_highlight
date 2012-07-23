@@ -15,17 +15,27 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version details
+ * Topics course format.  Display the whole course as "topics" made of modules.
  *
- * @package    Highlighted Topics Format
- * @createdby  Julian Ridden (http://www.moodleman.net)
- * @subpackage topics
- * @copyright  1999 onwards Martin Dougiamas (http://dougiamas.com)
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package format_highlight
+ * @copyright 2012 Pukunui Technology
+ * @author Julian (moodleman) Ridden based on Topics format by Nick Freear (OpenU).
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2012061402;        // The current plugin version (Date: YYYYMMDDXX)
-$plugin->requires  = 2011120100;        // Requires this Moodle version
-$plugin->component = 'format_highlight';    // Full name of the plugin (used for diagnostics)
+// Plugin version (update when tables change)
+$plugin->version  = 2012072300;
+
+// Required Moodle version
+$plugin->requires = 2012062501;
+
+// Full name of the plugin (used for diagnostics)
+$plugin->component = 'format_highlight';
+
+// Software maturity level
+$plugin->release  = MATURITY_RC;
+
+// User-friendly version number
+$plugin->maturity = '1.2 (2012072300)';
